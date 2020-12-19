@@ -1,0 +1,213 @@
+ body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,120,121,0.47102591036414565) 43%, rgba(0,212,255,1) 78%);
+    background-position: top, top;
+    background-attachment: scroll,fixed;
+    background-size: cover, cover;
+    color: #ffffff;
+    font-style: 'Merriweather', sans-serif;
+  }
+
+  
+​.wrapper {
+    text-align: center;
+    position: relative                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+}
+
+
+.navbar{
+    background: #ffffff;
+    opacity: 0.8;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 5px 60px;
+       
+
+  }
+  .navbar-brand{
+    color: black;
+    list-style-type: none;
+    border-radius: 2px;
+    margin-left: 20px;
+    padding: 5px 15px;
+    margin-top: 0em;
+       
+  }
+  .nav-item{
+    color: blue;
+    opacity: 1;
+    margin-top: -2px;    
+    margin-left: 115px;
+    margin-right: 2px;
+    padding: 15px 15px;  
+    justify-items: flex-end;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+    justify-content:space-around;
+        
+  }
+
+  
+ 
+  .caption {
+    position:fixed;
+    left: 0;
+    top: 280px;
+    width: 1000%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  h3 {
+    font-size: 2em;
+    font-style: italic;
+    margin-left: 290px;
+    top: 0px;
+    justify-content: center;
+  }
+  
+
+   h1{ 
+    color:black;
+    font-size: 5em;
+    font-style: italic;
+    margin-left: 260px;
+    top: 0px;
+    justify-content: center;  
+    
+   }
+     h2 {
+    color:black;
+    font-size: 3em;
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: center;  
+                                                                                                                                                                                                                                             
+
+  }
+  
+  p,h5 {
+    color:whitesmoke;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0px;
+    margin-right: -200px;
+    margin-left: 100px;
+    padding: 10px;
+    justify-content: center;
+  }
+  .body-container{
+  width: 95%;
+  padding: 10%;
+  border: 1px  rgb(6, 8, 24);
+  margin: .2em auto;
+  justify-content: center;
+
+
+  }
+
+  .main{
+      /* background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+      height: 100vh;
+      width: 500px;
+      margin-top: 500px; 
+      margin-right: 200px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              qua;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .about{
+    
+    height: 500px;
+    width:95%;
+    margin-top:50px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+  
+      
+
+.align-self-start{
+    background:radial-gradient(circle, rgba(63,247,251,1) 0%, rgba(252,70,174,1) 100%);
+    width: 300px;
+    height: 400px;
+    padding: 15px 15px;
+    display: flex;
+    border-radius: 3vh;
+    border: 5px  rgb(6, 8, 24);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+
+}
+.align-self-center{
+    background:radial-gradient(circle, rgba(63,247,251,1) 0%, rgba(252,70,174,1) 100%);
+    width: 300px;
+    height: 400px;
+    padding: 15px 15px;
+    display: flex;
+    border-radius: 3vh;
+    border: 5px  rgb(24, 16, 6);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.align-self-end{
+    background:radial-gradient(circle, rgba(63,247,251,1) 0%, rgba(252,70,174,1) 100%);
+    width: 300px;
+    height: 400px;
+    padding: 15px 15px;
+    display: flex;
+    border-radius: 3vh;
+    border-color:black ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contact{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: -110px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+  background: radial-gradient(circle, rgba(238,174,210,1) 0%, rgba(74,172,187,0.05926120448179273) 100%);;
+  background-position: center;
+  height: 600px;
+  width: 700px;
+  margin-top:50px;
+  margin-left: 190px;
+  margin-right: 80px;
+  padding: 15px;
+  display: flex;
+  border-radius: 5vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.footer{
+    display: inline-flex;
+    margin-right: 200px;
+    justify-content: center;
+
+}
